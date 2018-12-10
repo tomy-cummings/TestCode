@@ -151,9 +151,6 @@ public class Robot extends IterativeRobot {
 		SmartDashboard.putNumber("Encoder Right", RightEncoder.get());
 		SmartDashboard.putNumber("Encoder Lift", LiftEncoder.get());
     	SmartDashboard.putNumber("Encoder Angle", AngleEncoder.get());
-		SmartDashboard.putBoolean("Lift Limit", LiftLimit.get());
-		SmartDashboard.putBoolean("UP", up);
-		SmartDashboard.putBoolean("DOWN", down);
 		SmartDashboard.putString("State", state);
 		
 	}
